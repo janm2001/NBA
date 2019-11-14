@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="shortcut icon" type="image/x-icon" href="img/NBA.jpg">
+    <title>NBA</title>
+
+</head>
+<body>
+<!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
+        <a href="#" class="navbar-brand"><img src="img/NBA.jpg" id="logo" class="img-fluid" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMarkup"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navMarkup">
+                <ul class="navbar-nav ml-auto"> <!--ml-auto pushes ul to the other side of the logo-->
+					<li class="nav-item active"><a class="nav-link" href="">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Scores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Players</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Teams</a></li>
+					<li class="nav-item"><a class="nav-link" href="">News</a></li>
+					<li class="nav-item"><a class="nav-link" href="">Stats</a></li>
+				</ul>
+        </div>
+
+    </nav>
+
+    <!--Carousel-->
+
+    <div id="carousel" class="carousel slide" data-role="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1" ></li>
+            <li data-target="#carousel" data-slide-to="2" ></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/dalas-boston2.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                    <p><img src="img/dallas-logo.jpg" class="log" alt=""> 106-116 <img src="img/boston-logo.jpg" class="log" alt=""></p>
+                    <a href="#" class="btn btn-lg btn-primary">View the Game</a>   
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/raptors-clipers.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                        
+                    <p><img src="img/raptors-logo.png" class="log" alt=""> 88-98 <img src="img/clipers-logo.png" class="log" alt=""></p>
+                    <a href="#" class="btn btn-lg btn-dark">View the Game</a>         
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/rockets-pelicans.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                        
+                    
+                    <p><img src="img/rockets-logo.jpg" class="log" alt=""> 122-116 <img src="img/pelicans-logo.png" class="log" alt=""></p>
+                    <a href="#" class="btn btn-lg btn-danger">View the Game</a>   
+                </div>
+            </div>
+        </div>
+        <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+
+        </a>
+
+        <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+    
+            </a>
+
+    </div>
+
+    <section id="cards ">
+        <div class="container-fluid text-center padding">
+
+        <div class="row">
+            <div class="col-lg-3">
+                    <div class="card ">
+                            <a href="#"><img src="img/doncic.jpg" class="card-img-top" alt=""></a>
+                            <div class="card-body ">
+                                <h5 class="card-title">Luka Doncic might be this YEAR MVP</h5>
+                                <p class="text-left">Luka doncic is playing so great this season averaging 28 points a game 9 assist per game and 11 rebounds at only 20 years old</p>
+                                <a href="#" class="btn btn-lg btn-primary ">Read more</a>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="col-lg-3">
+                    <div class="card ">
+                            <a href="#"><img src="img/steph.jpg" class="card-img-top" alt=""></a>
+                            <div class="card-body ">
+                                <h5 class="card-title">Stephen Curry broke his arm</h5>
+                                <p class="text-left">Game vs Suns Curry had a bad landing and broke his arm and might be out for the rest of the season.</p>
+                                <a href="#" class="btn btn-lg btn-success ">Read more</a>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="col-lg-3">
+                    <div class="card ">
+                            <a href="#"><img src="img/trae.jpg" class="card-img-top" alt=""></a>
+                            <div class="card-body ">
+                                <h5 class="card-title">Trae Young has an Amazing start of the season</h5>
+                                <p class="text-left">He is unstopable right now averaging 28 points a game and 10 assist per game at it's only his second season.</p>
+                                <a href="#" class="btn btn-lg btn-danger ">Read more</a>
+                            </div>
+                        </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="jumbotron sticky-top">
+                    <h2 class="display-6">HEADLINES</h2>
+                    <a href="#">Antohny Davis likely out vs Warriors</a>
+                    <hr>
+                    <br>
+                    <a href="#">Embiid(injury mainstance) out vs Magic</a>
+                    <hr>
+                    <br>
+                    <a href="#">Report:Nets to sign veteran Shumpert</a>
+                    <hr>
+                    <br>
+                    <a href="#">Rockets Gordan will miss 6 weeks knee injury</a>
+                    <hr>
+                    <br>
+                    <a href="#">Report George will likely be back on Tuesday</a>
+                    <hr>
+                    <br>
+                    <a href="#">10 stats to know for ESPN doubleheaders</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <hr>
+
+    <section id="games">
+        <div class="container well text-center">
+            <div class="row">
+                <div class="col-12" >
+                    <h1 class="display-2">Results from last night</h1>
+                    <div class="container " id="results">
+                        <div class="row">
+                            <div class="col-lg-4 game">
+                                <h4 class="display-4">FINAL</h4>
+                                <p class="winner"><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/MEM.svg" class="icon" alt=""> Memphis Grizzlies<span>(4-7)</span>   </p>
+                                <h3>119</h3>
+                                <p><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/CHA.svg" class="icon" alt="">Charlotte Hornets<span>(4-7)</span>   </p>
+                                <h3>117</h3>
+                                <br>
+                                <p class="mvp">Morant game winner with 0.7sec left</p>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <a href="#" class="btn btn-success">WATCH</a>
+                                    <a href="#" class="btn btn-primary">BOX SCORE</a>
+                                    <a href="#" class="btn btn-danger">GAME DETAILS</a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-4 game">
+                                <h4 class="display-4">FINAL</h4>
+                                <p><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/PHI.svg" class="icon" alt=""> Philadelphia 76ers<span>(7-4)</span>   </p>
+                                <h3>97</h3>
+                                <p class="winner"><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/ORL.svg" class="icon" alt="">Orlando Magic<span>(4-7)</span>   </p>
+                                <h3>112</h3>
+                                <p class="mvp">Vucevic:25 points,12 rebounds</p>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <a href="#" class="btn btn-success">WATCH</a>
+                                    <a href="#" class="btn btn-primary">BOX SCORE</a>
+                                    <a href="#" class="btn btn-danger">GAME DETAILS</a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-4 game">
+                                <h4 class="display-4">FINAL</h4>
+                                <p><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/WAS.svg" class="icon" alt=""> Washington Wizards<span>(2-7)</span>   </p>
+                                <h3>133</h3>
+                                <p class="winner"><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/BOS.svg" class="icon" alt="">Boston Celtics<span>(9-1)</span>   </p>
+                                <h3>140</h3>
+                                <p class="mvp">Walker:25 points,5 assist,5rebounds</p>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <a href="#" class="btn btn-success">WATCH</a>
+                                    <a href="#" class="btn btn-primary">BOX SCORE</a>
+                                    <a href="#" class="btn btn-danger">GAME DETAILS</a>
+                                </div>
+                                
+                            </div>
+
+                            
+
+
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-lg-4 game">
+                                <h4 class="display-4">FINAL</h4>
+                                <p><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/LAC.svg" class="icon" alt=""> LA Clipers<span>(7-4)</span>   </p>
+                                <h3>119</h3>
+                                <p class="winner"><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/HOU.svg" class="icon" alt="">Houston Rockets<span>(8-3)</span>   </p>
+                                <h3>117</h3>
+                                <br>
+                                <p class="mvp">Harden 47 points,7 rebounds, 6 assist</p>
+                                <br>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <a href="#" class="btn btn-success">WATCH</a>
+                                    <a href="#" class="btn btn-primary">BOX SCORE</a>
+                                    <a href="#" class="btn btn-danger">GAME DETAILS</a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-4 game">
+                                <h4 class="display-4">FINAL</h4>
+                                <p><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/SAS.svg" class="icon" alt=""> San Antonio Spurs<span>(5-6)</span>   </p>
+                                <h3>114</h3>
+                                <p class="winner"><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/MIN.svg" class="icon" alt="">Minesotta Timberwovles<span>(4-7)</span>   </p>
+                                <h3>129</h3>
+                                <p class="mvp">Wiggins:30 points, 8 rebounds, 7 assists</p>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <a href="#" class="btn btn-success">WATCH</a>
+                                    <a href="#" class="btn btn-primary">BOX SCORE</a>
+                                    <a href="#" class="btn btn-danger">GAME DETAILS</a>
+                                </div>
+                                
+                            </div>
+
+                            <div class="col-lg-4 game">
+                                <h4 class="display-4">FINAL</h4>
+                                <p><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/GSW.svg" class="icon" alt=""> Golden State Warriors<span>(2-10)</span>   </p>
+                                <h3>94</h3>
+                                <p class="winner"><img src="https://cdn.nba.net/assets/logos/teams/secondary/web/LAL.svg" class="icon" alt="">LA Lakers<span>(9-2)</span>   </p>
+                                <h3>120</h3>
+                                <br>
+                                <p class="mvp">Lebron:23points, 12 assists, 7 rebounds</p>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <a href="#" class="btn btn-success">WATCH</a>
+                                    <a href="#" class="btn btn-primary">BOX SCORE</a>
+                                    <a href="#" class="btn btn-danger">GAME DETAILS</a>
+                                </div>
+                                
+                            </div>
+
+                            
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+
+    <footer>
+        
+            <h4>Made by Jan Mackovic &copy; 2019</h4>
+        
+    </footer>
+
+
+
+
+
+
+        
+        
+    
+</body>
+</html>

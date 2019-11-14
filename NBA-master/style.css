@@ -1,0 +1,105 @@
+#logo{
+    width:100px;
+    height: 50px;
+}
+
+nav a.nav-link:hover{
+    border-bottom: 2px solid #fff;
+
+}
+
+nav a.nav-link{
+    font-size:1.25rem;
+    padding:5px;
+    margin-right: 5px;
+}
+
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    text-align: center;
+}
+
+.log{
+    width:100px;
+    height:100px;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.padding{
+    padding-top:5px;
+}
+
+.carousel-caption p{
+    font-size:1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    
+}
+
+.jumbotron h2{
+    border-bottom: 3px solid #010101;
+}
+.jumbotron a{
+    text-decoration: none;
+    color:#000;
+    }
+
+.jumbotron a:hover{
+    color:rgb(31, 27, 231);
+    border-bottom:1px solid #ddd;
+    text-decoration: none;
+}    
+
+.game{
+    border: 1px solid gray;
+    
+    
+}
+
+.mvp{
+    background: #ccc;
+}
+
+span{
+    color:#bbb;
+}
+
+.winner{
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer{
+    margin: 0;
+    padding:2px;
+    text-align: center;
+    background: rgb(17, 39, 233);
+    color:#fff;
+}
+
+
+
+.display-4{
+    border-bottom:2px solid #222;
+    padding:5px;
+    border-width: 75%;
+}
+
+.display-2{
+    font-family: cursive;
+    border-bottom:4px solid #222;
+    padding:10px;
+    border-width: 75%;
+}
+
+#results{
+    margin-top: 30px;
+}
