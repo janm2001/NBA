@@ -138,8 +138,52 @@ span{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.stats{
+    background:rgb(1, 10, 138);
+    color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+table{
+    margin-top:15px;
+}
+
+
+table td{
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:#fff;
+    
+    
+}
+
+table tr{
+    border:1px solid #fff;
+}
+
+
+
 @media(max-width:900px){
     iframe{
         width:400px;
     }
+}
+
+section #schedule{
+    color:#ddd;
+}
+
+#schedule td{
+    color:#000;
+}
+
+ table .game-info{
+    border-bottom:2px solid rgb(0, 0, 0);
+}
+
+span #date-19{
+    color:rgb(22, 0, 146);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
